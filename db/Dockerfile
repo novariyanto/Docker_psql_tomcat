@@ -1,5 +1,5 @@
 FROM postgres:9.4  
-MAINTAINER lpradel
+MAINTAINER adenovariyanto@itgroupinc.asia
 
 ENV POSTGRES_USER admin  
 ENV POSTGRES_PASSWORD password  
