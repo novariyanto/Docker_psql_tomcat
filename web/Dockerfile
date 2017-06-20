@@ -1,5 +1,5 @@
-FROM tomcat:7-jre8  
-MAINTAINER lpradel
+FROM tomcat:8-jre8  
+MAINTAINER adenovariyanto@itgroupinc.asia 
 
 RUN echo "export JAVA_OPTS=\"-Dapp.env=staging\"" > /usr/local/tomcat/bin/setenv.sh  
 
